@@ -2,6 +2,8 @@
 
 An interactive, Excel-based flashcard application built for targeted language learning and memorization. Driven by Excel VBA macros, it enables users to study custom vocabulary ranges, practice card drills, and manage structured question/answer databases across sheets.
 
+![Flashcard Interface](screenshots/1.png)
+
 ## 🚀 Features
 
 * **Start / Next Card:** Randomly pulls or sequences the next word onto the primary display.
@@ -23,6 +25,8 @@ To study a new deck of vocabulary cards, follow this exact workflow:
 | 요리하다 | to cook |
 | 문자 | message/text |
 
+![Database Setup Example](screenshots/2.png)
+
 ### Step 2: Push Data to the Flashcard Engine
 1. Select and **copy** all your vocabulary rows from your new sheet.
 2. Go to the **`template` sheet** and **paste** the copied data into columns A and B (replacing any old values).
@@ -32,3 +36,31 @@ To study a new deck of vocabulary cards, follow this exact workflow:
 ### Step 3: Configure Range and Play
 1. *(Optional)* Input your target row numbers into the **Start** and **End** cells if you want to focus on a small section.
 2. Click **Start / Next Card** to begin practicing.
+
+## 📄 License
+
+This project is licensed under the MIT License - see below for details:
+
+```text
+MIT License
+
+Copyright (c) 2026
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
